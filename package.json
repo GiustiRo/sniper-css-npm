@@ -1,0 +1,31 @@
+{
+  "name": "sniper-css",
+  "version": "1.0.0",
+  "description": "The minimun amount of CSS to make your site layout responsive using flex-box.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass scss/ -o css --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GiustiRo"
+  },
+  "keywords": [
+    "Sniper",
+    "CSS",
+    "flex",
+    "performance",
+    "lightweight",
+    "styles",
+    "flex-box",
+    "css utils"
+  ],
+  "author": "giustiRo",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^6.0.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}
